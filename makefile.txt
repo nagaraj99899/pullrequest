@@ -1,0 +1,8 @@
+final.exe:main.o big3.o fact.o
+	gcc -o final.exe main.o big3.o fact.o
+main.o:main.c
+	gcc -o main.c
+fact.o:fact.c
+	gcc -o fact.c
+big3.o:big3.c
+	gcc -o big3.c
